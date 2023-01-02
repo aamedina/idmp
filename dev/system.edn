@@ -1,0 +1,57 @@
+{:vocab {:sc/create-fn net.wikipunk.rdf/map->UniversalTranslator}
+ :idmp  {:sc/create-fn net.wikipunk.idmp/map->IDMP
+         :sc/refs      [:vocab]
+         :domains      [net.wikipunk.idmp.boot/lcc-mod
+                        net.wikipunk.idmp.boot/cmns-mod
+                        net.wikipunk.idmp.boot/idmp-ext-mod
+                        net.wikipunk.idmp.boot/idmp-iso-mod
+                        net.wikipunk.idmp.boot/idmp-meta-mod]
+         :modules      [net.wikipunk.idmp.boot/lcc-3166-1
+                        net.wikipunk.idmp.boot/lcc-639-2
+                        net.wikipunk.idmp.boot/lcc-m49
+                        net.wikipunk.idmp.boot/lcc-lr
+                        net.wikipunk.idmp.boot/lcc-639-1
+                        net.wikipunk.idmp.boot/lcc-cr
+                        net.wikipunk.idmp.boot/lcc-3166-2
+                        net.wikipunk.idmp.boot/cmns-ge-eeuj
+                        net.wikipunk.idmp.boot/cmns-cxtid
+                        net.wikipunk.idmp.boot/cmns-ge-euj
+                        net.wikipunk.idmp.boot/cmns-doc
+                        net.wikipunk.idmp.boot/cmns-ge
+                        net.wikipunk.idmp.boot/cmns-av
+                        net.wikipunk.idmp.boot/cmns-ge-seuj
+                        net.wikipunk.idmp.boot/cmns-qtu
+                        net.wikipunk.idmp.boot/cmns-cxtdsg
+                        net.wikipunk.idmp.boot/cmns-dsg
+                        net.wikipunk.idmp.boot/cmns-ge-ukj
+                        net.wikipunk.idmp.boot/cmns-cls
+                        net.wikipunk.idmp.boot/cmns-id
+                        net.wikipunk.idmp.boot/cmns-ge-wasj
+                        net.wikipunk.idmp.boot/cmns-txt
+                        net.wikipunk.idmp.boot/cmns-rga
+                        net.wikipunk.idmp.boot/cmns-dt
+                        net.wikipunk.idmp.boot/cmns-ge-weuj
+                        net.wikipunk.idmp.boot/cmns-prd
+                        net.wikipunk.idmp.boot/cmns-ra
+                        net.wikipunk.idmp.boot/cmns-pts
+                        net.wikipunk.idmp.boot/cmns-org
+                        net.wikipunk.idmp.boot/cmns-cds
+                        net.wikipunk.idmp.boot/cmns-ge-neuj
+                        net.wikipunk.idmp.boot/cmns-col
+                        net.wikipunk.idmp.boot/cmns-loc
+                        net.wikipunk.idmp.boot/idmp-amp
+                        net.wikipunk.idmp.boot/idmp-chg
+                        net.wikipunk.idmp.boot/idmp-cmpl
+                        net.wikipunk.idmp.boot/idmp-dtp
+                        net.wikipunk.idmp.boot/idmp-euctr
+                        net.wikipunk.idmp.boot/idmp-eura
+                        net.wikipunk.idmp.boot/idmp-eurga
+                        net.wikipunk.idmp.boot/idmp-mprd
+                        net.wikipunk.idmp.boot/idmp-phdf
+                        net.wikipunk.idmp.boot/idmp-phprd
+                        net.wikipunk.idmp.boot/idmp-ra
+                        net.wikipunk.idmp.boot/idmp-spor
+                        net.wikipunk.idmp.boot/idmp-sub
+                        net.wikipunk.idmp.boot/idmp-trlp
+                        net.wikipunk.idmp.boot/idmp-ucum
+                        net.wikipunk.idmp.boot/idmp-uom]}}
