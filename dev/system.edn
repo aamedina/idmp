@@ -1,6 +1,6 @@
-{:vocab {:sc/create-fn net.wikipunk.rdf/map->UniversalTranslator}
+{:vocab {:sc/create-fn net.wikipunk.rdf/map->UniversalTranslator
+         :sc/refs      [:idmp]}
  :idmp  {:sc/create-fn net.wikipunk.idmp/map->IDMP
-         :sc/refs      [:vocab]
          :domains      [net.wikipunk.idmp.boot/lcc-mod
                         net.wikipunk.idmp.boot/cmns-mod
                         net.wikipunk.idmp.boot/idmp-ext-mod
